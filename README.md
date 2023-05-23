@@ -12,7 +12,7 @@ A- zure Tenant ID, Client ID, Client Secret, and Subscription ID for authenticat
 To use this module, include the following code in your Terraform configuration:
 
 ```terraform
-module "aks-kyverno-chart" {
+module "aks-helm-chart" {
   source  = "app.terraform.io/my-org/chart-release/helm"
   version = "0.0.1"
 
