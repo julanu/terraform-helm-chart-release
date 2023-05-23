@@ -1,7 +1,7 @@
 ## Terraform Cloud Module: Helm Charts
 This Terraform module provisions and manages the installation of any Helm chart on an Azure Kubernetes Service (AKS) cluster.
 
-Prerequisites
+### Prerequisites
 Before using this module, make sure you have the following prerequisites:
 
 - An existing Azure Resource Group where the resources will be deployed.
