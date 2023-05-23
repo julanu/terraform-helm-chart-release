@@ -1,57 +1,60 @@
 variable "release_name" {
   type        = string
-  description = "The name of your Helm release"
+  description = "The name of your Helm release."
 }
 
 variable "chart_url" {
   type        = string
-  description = "The URL for the Helm chart installation"
+  description = "The URL for the Helm chart installation."
 }
 
 variable "chart_name" {
   type        = string
-  description = "The name of the chart you want to install"
+  description = "The name of the chart you want to install."
 }
 
 variable "chart_version" {
   type        = string
-  description = "The version of the Helm chart to be installed"
+  description = "The version of the Helm chart to be installed."
 }
 
 variable "values_file_path" {
   type        = string
-  description = "The path to your Helm chart values file"
+  description = "The path to your Helm chart values file."
 }
 
 variable "chart_namespace" {
   type        = string
-  description = "Namespace for the Helm release to be installed in"
+  description = "The namespace for the Helm release installation."
 }
 
 variable "resource_group" {
-  description = "Azure Resource Group for resources"
   type        = string
+  description = "The name of the Azure Resource Group where resources will be deployed."
   sensitive   = true
 }
 
 variable "aks_cluster_name" {
-  description = "Name for the AKS cluster"
   type        = string
+  description = "The name of the AKS cluster."
 }
 
 variable "tenant_id" {
   type        = string
-  description = "Azure Tenant ID"
+  description = "The Azure Tenant ID for authentication."
 }
 
 variable "client_secret" {
-  type = string
+  type        = string
+  description = "The client secret for Azure authentication."
 }
 
 variable "client_id" {
-  type = string
+  type        = string
+  description = "The client ID for Azure authentication."
 }
 
 variable "subscription_id" {
-  type = string
+  type        = string
+  description = "The Azure Subscription ID."
 }
